@@ -48,6 +48,9 @@ function App() {
                 Favourites
               </Heading>
             </Link>
+            <Heading fontSize="2xl" marginTop={9} marginBottom={3}>
+              Genres
+            </Heading>
             <GenreList selectedGenre={gameQuery.genre} onSelectGenre={(genre) => setGameQuery({ ...gameQuery, genre})} />
           </GridItem>
         </Show>

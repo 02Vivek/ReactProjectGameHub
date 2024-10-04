@@ -17,9 +17,6 @@ import { Button, Heading, HStack, Image, List, ListItem, Spinner
   
     return (
       <>
-        <Heading fontSize="2xl" marginTop={9} marginBottom={3}>
-          Genres
-        </Heading>
         <List>
           {data.map((genre) => (
             <ListItem 
